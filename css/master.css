@@ -1,0 +1,37 @@
+body{
+  font-family: 'Allerta', sans-serif;
+}
+
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-b{
+  font-size: 30px;
+}
+
+.guitarras{
+  color: #1F313C;
+}
+
+.guitarras h2{
+  font-size: 35px;
+}
+
+.portada{
+  background-image: url("../img/background.png");
+  color: white;
+}
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+}
+
+.menu li{
+  display: inline-block;
+}
+
+.logotipo{
+  display: inline-block;
+}
