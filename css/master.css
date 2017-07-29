@@ -1,13 +1,47 @@
+*{
+  /*width: tamaño;
+  height: tamaño;
+  padding-top: 10px;
+  padding-left: 15;
+  padding-right: 13;
+  padding-bottom: 5;
+  padding: 10px 13px 5px 15px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-left: 15;
+  margin-right: 13;
+  margin-bottom: 5;
+  border: 2px solid red;*/
+}
+
+.portada button{
+    margin-bottom: 90px;
+    margin-top: 5px;
+}
+
 body{
   font-family: 'Allerta', sans-serif;
 }
 
 .titulo{
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  margin-top: 70px;
+  font-size: 60px;
+}
+
+.resumen{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .title-b{
-  font-size: 50px;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.title-a{
+  margin-bottom: 20px;
 }
 
 .guitarras{
@@ -21,6 +55,7 @@ body{
 .portada{
   background-image: url("../img/background.png");
   color: white;
+  padding: 20px;
 }
 
 .menu{
