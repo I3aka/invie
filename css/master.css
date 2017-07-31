@@ -1,26 +1,13 @@
-*{
-  /*width: tamaño;
-  height: tamaño;
-  padding-top: 10px;
-  padding-left: 15;
-  padding-right: 13;
-  padding-bottom: 5;
-  padding: 10px 13px 5px 15px;
-  margin: 10px;
-  margin-top: 10px;
-  margin-left: 15;
-  margin-right: 13;
-  margin-bottom: 5;
-  border: 2px solid red;*/
+body{
+  font-family: 'Allerta', sans-serif;
 }
 
 .portada button{
-    margin-bottom: 90px;
-    margin-top: 5px;
+  text-align: center;
 }
 
-body{
-  font-family: 'Allerta', sans-serif;
+.portada button li{
+  display: inline-block;
 }
 
 .titulo{
@@ -32,7 +19,6 @@ body{
 
 .resumen{
   margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .title-b{
@@ -69,4 +55,18 @@ body{
 
 .logotipo{
   display: inline-block;
+}
+
+.contenerdor{
+  width: 800px;
+  margin: auto;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+}
+
+.left {
+  float: left;
 }
