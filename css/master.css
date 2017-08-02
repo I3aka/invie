@@ -3,11 +3,7 @@ body{
 }
 
 .portada button{
-  text-align: center;
-}
-
-.portada button li{
-  display: inline-block;
+  margin: auto;
 }
 
 .titulo{
@@ -60,6 +56,15 @@ body{
 .contenerdor{
   width: 800px;
   margin: auto;
+}
+
+.button_externo{
+  width: 800px;
+  border-left: 0px;
+}
+
+.guitarra{
+  overflow: hidden;
 }
 
 .right {
