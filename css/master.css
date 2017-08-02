@@ -59,8 +59,7 @@ body{
 }
 
 .button_externo{
-  width: 800px;
-  border-left: 0px;
+  /* Agregar los atributos de la clase */
 }
 
 .guitarra{
