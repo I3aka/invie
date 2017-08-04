@@ -2,15 +2,12 @@ body{
   font-family: 'Allerta', sans-serif;
 }
 
-.portada button{
-  margin: auto;
-}
 
 .titulo{
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 0;
   margin-top: 70px;
-  font-size: 60px;
+  font-size: 90px;
 }
 
 .resumen{
@@ -38,11 +35,14 @@ body{
   background-image: url("../img/background.png");
   color: white;
   padding: 20px;
+  margin-left: 20px;
 }
 
 .menu{
   font-size: 24px;
   display: inline-block;
+    position: absolute;
+    right: 10px;
 }
 
 .menu li{
@@ -58,19 +58,35 @@ body{
   margin: auto;
 }
 
-.button_externo{
-  /* Agregar los atributos de la clase */
+.enlace{
+  margin-left: 508px;
+  margin-bottom: 261px;
+  margin-top: 10px;
 }
 
 .guitarra{
-  overflow: hidden;
+  /*overflow: hidden;*/
+  border: 2px solid #1f313c;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .right {
   float: right;
   display: inline-block;
+  position: relative;
+  bottom: 136px;
 }
 
 .left {
   float: left;
+  position: relative;
+  top: -36px;
+  left: -30px;
+}
+
+.header{
+  position: relative;
 }
